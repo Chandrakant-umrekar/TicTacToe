@@ -20,6 +20,7 @@ const winPatterns = [
 
 let moves = 0;
 
+//selecting boxes
 boxes.forEach((box) => {
     box.addEventListener("click", () => {  
         if (turnO) {
@@ -60,6 +61,7 @@ const enableBoxes = () => {
     }
 }
 
+//reset game
 const resetGame = () => {
     turnO = true;
     enableBoxes();
@@ -67,11 +69,13 @@ const resetGame = () => {
     msgContainer.classList.add("hide");
 }
 
+//winner phase
 const gameWinner = (winner) => {
     msgContainer.classList.remove("hide");
     winMsg.innerText = `Congratulations! Player '${winner}' Win The Game!`;
 }
 
+//if draw
 const checkDraw = () => {
     if (moves == 9) {
         msgContainer.classList.remove("hide");
@@ -79,6 +83,7 @@ const checkDraw = () => {
     }
 }
 
+// winner check
 const checkWinner = () => {
     for (let pattern of winPatterns) {
 

@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* heading */
 h1 {
     color: white;
 }
@@ -13,6 +14,7 @@ body {
     text-align: center;
 }
 
+/* main box */
 .game-container {
     height: 70vh;
     display: flex;
@@ -41,6 +43,7 @@ body {
     font-size: 6vmax;
 }
 
+/* reset button */
 .reset-btn {
     padding: 1rem;
     background-color: #f0f0f0;
@@ -50,6 +53,7 @@ body {
     border: none;
 }
 
+/* message container */
 .msg-container {
     height: 100vh;
     width: 100vw;
