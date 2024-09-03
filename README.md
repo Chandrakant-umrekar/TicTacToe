@@ -1,4 +1,6 @@
-#How to Play
+It is the Tic Tac Toe game.
+
+#How to Play the game
 The game starts with Player X.
 Click on an empty cell to make a move.
 The game will switch turns between Player X and Player O.
